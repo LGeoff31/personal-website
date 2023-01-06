@@ -75,9 +75,10 @@ const TrackAndField = () => {
         <Box>
           <Text>
             This is a guessing game where a professional olympic athlete from
-            the sport of Track and Field will be shown. You Job the individual's
-            professional event Ex. 100m, 200m, 400m, shotput, etc. This will be
-            done based on inspecting the physical attributes of the athlete.
+            the sport of Track and Field will be shown. You Job the
+            individual&apos;s professional event Ex. 100m, 200m, 400m, shotput,
+            etc. This will be done based on inspecting the physical attributes
+            of the athlete.
           </Text>
           <Flex>
             <ForwardButton
