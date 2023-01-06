@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.forward-button:hover > .forward-link {
+	transform: translateX(10px);
+}
+
+.backward-button:hover > .backward-link {
+	transform: translateX(-10px);
+}
+
+.round {
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.round > span {
+	height: 3px;
+	margin: 1px;
+	width: 30px;
+	transition: 300ms ease;
+	border-radius: 8px;
+	display: block;
+	position: absolute;
+}
+
+.round > span:first-child {
+	transform: rotate(45deg);
+	left: 25%;
+	bottom: 35%;
+}
+
+.round > span:nth-child(2) {
+	transform: rotate(-45deg);
+	left: 45%;
+	bottom: 35%;
+}
+
+.round > span:nth-child(3) {
+	transform: rotate(45deg);
+	left: 25%;
+	bottom: 54%;
+}
+
+.round > span:nth-child(4) {
+	transform: rotate(-45deg);
+	left: 45%;
+	bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+	transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+	transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+	transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+	transform: rotate(-225deg);
+}
+
+/* Navbar */
+.hamburger-line {
+	width: 30px;
+	height: 3px;
+	transition: all 200ms ease;
+	margin: 6px;
+}
+
+.mobile-nav-wrapper {
+	clip-path: circle(1px at 100% 0%);
+	-webkit-clip-path: circle(0 at 100% 0%);
+	pointer-events: none;
+	transition: all 500ms ease;
+}
+
+.mobile-nav-wrapper.open {
+	clip-path: circle(1200px at 100% 0%);
+	-webkit-clip-path: circle(1200px at 100% 0%);
+	transition: all 500ms ease;
+	pointer-events: all;
+}
