@@ -7,7 +7,7 @@ const aboutData = [
     name: "St. Robert CHS",
     date: "2019-2023",
     description:
-      "I'm currently in my senior year of high school in the IB program at St. Robert CHS. I have taken Grade 11 & 12 computer science in Python and Java. I am currently taking Higher Level math, physics and economics which are university level courses. My Standard Level courses include chemistry, english, french. damentals that I can apply when working in the industry.",
+      "I'm currently in my senior year of high school in the IB program at St. Robert CHS. I have taken Grade 11 & 12 computer science in Python and Java. I am currently taking Higher Level math, physics and economics which are university level courses. My Standard Level courses include chemistry, english, french.",
     role: "International Baccalaureate",
     logo: <Image alt="" position="absolute" src={"/images/IB.jpeg"} h={12} />,
   },
@@ -31,7 +31,7 @@ const aboutData = [
     name: "Competitive Runner",
     date: "2017 - 2023",
     description:
-      "I mainly specizlize in long distance events from 5km and above. My PB's ~ 800m: 2:09, 1000m: 2:51, 5km: 18:06, 10km: 41: 23, Half-Marathon: 1:29:56, Marathon: 3:17:02 ",
+      "I mainly specizlize in long distance events from 5km and above. My PB's ~ 800m: 2:09, 1000m: 2:51, 5km: 18:06, 10km: 41: 56, Half-Marathon: 1:30:04, Marathon: 3:17:02 ",
     role: "Runner",
     logo: (
       <Image alt="" position="absolute" src={"/images/vaporflies.jpeg"} h={9} />

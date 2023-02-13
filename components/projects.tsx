@@ -29,9 +29,12 @@ const Projects = () => {
         <Heading>Projects</Heading>
       </Flex>
       <Grid templateColumns="repeat(auto-fit, minmax(400px, 1fr))" gap={8}>
+        <ParkwayKitchen />
+        <RealEstate />
         <FooderProjectCard />
-        <TrackAndField />
+
         <RockPaperScissors />
+        <TrackAndField />
         <WorldRecordGuesser />
         <AnimalSounds />
         <UrinalEtiquette />
@@ -53,7 +56,49 @@ const Projects = () => {
     </Box>
   );
 };
+const ParkwayKitchen = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Parkway Kitchen
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/parkwayKitchen.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
 
+        <Box>
+          <Text>
+            This is an informative website for this local Chinese Restaurant
+            named: Parway Kitchen. On this website, you can see view the menu,
+            location, contact page, and more! Give this restaurant a try!
+          </Text>
+          <Flex>
+            <ForwardButton
+              isExternal={true}
+              href="https://parkway-kitchen.vercel.app/"
+            >
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/parkway-kitchen"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
+  );
+};
 const TrackAndField = () => {
   return (
     <Card>
@@ -90,6 +135,48 @@ const TrackAndField = () => {
             <ForwardButton
               isExternal={true}
               href="https://github.com/LGeoff31/record-guesser"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
+  );
+};
+const RealEstate = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Real Estate Agent
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/realEstate.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
+
+        <Box>
+          <Text>
+            Need a Real Estate Agent? Look no further! Contact Allen Lee; an
+            expert in the field of real estate with over 35 years of experience!
+          </Text>
+          <Flex>
+            <ForwardButton
+              isExternal={true}
+              href="https://allen-lee.vercel.app/"
+            >
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/allenlee"
             >
               Code
             </ForwardButton>
@@ -144,6 +231,7 @@ const WorldRecordGuesser = () => {
     </Card>
   );
 };
+
 const RockPaperScissors = () => {
   return (
     <Card>
