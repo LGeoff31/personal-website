@@ -18,13 +18,7 @@ const aboutData = [
       "I Tutor the contest material held by the University of Waterloo (Ex. Cayley, Fermet, Euclid, CCC). Additionally, I teach the fundementals of Python as well as Math courses from Gr. 9 to 12. Feel free to contact me @geoffrey31415@gmail.com",
     role: "Tutor",
     logo: (
-      <Image
-        alt=""
-        position="absolute"
-        src={"/images/paper_logo.png"}
-        h={14}
-        ml={2}
-      />
+      <Image alt="" position="absolute" src={"/images/cs.jpeg"} h={9} ml={-3} />
     ),
   },
   {
