@@ -29,6 +29,8 @@ const Projects = () => {
         <Heading>Projects</Heading>
       </Flex>
       <Grid templateColumns="repeat(auto-fit, minmax(400px, 1fr))" gap={8}>
+        <YoutubeClone />
+        <Memories />
         <ParkwayKitchen />
         <RealEstate />
         <FooderProjectCard />
@@ -54,6 +56,94 @@ const Projects = () => {
         </Box>
       </Grid>
     </Box>
+  );
+};
+const YoutubeClone = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Youtube App
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/youtubeClone.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
+
+        <Box>
+          <Text>
+            This is a streamining platform utilizing rapid API to generate
+            relevant videos targetted towards your preference! It includes
+            features such as likes, views, and channel icons for you to enjoy
+            your favourite videos online!
+          </Text>
+          <Flex>
+            <ForwardButton
+              isExternal={true}
+              href="https://electricochy-youtube.netlify.app/"
+            >
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/youtubeWebsite"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
+  );
+};
+const Memories = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Memories
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/memories.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
+
+        <Box>
+          <Text>
+            This is a streamining platform utilizing rapid API to generate
+            relevant videos targetted towards your preference! It includes
+            features such as likes, views, and channel icons for you to enjoy
+            your favourite videos online!
+          </Text>
+          <Flex>
+            <ForwardButton
+              isExternal={true}
+              href="https://electricochy-memories.netlify.app/"
+            >
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/youtubeWebsite"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
   );
 };
 const ParkwayKitchen = () => {
