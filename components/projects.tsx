@@ -39,7 +39,6 @@ const Projects = () => {
         <TrackAndField />
         <WorldRecordGuesser />
         <AnimalSounds />
-        <UrinalEtiquette />
 
         <Box>
           <Text>
@@ -401,49 +400,6 @@ const AnimalSounds = () => {
             <ForwardButton
               isExternal={true}
               href="https://github.com/LGeoff31/AnimalGuesser"
-            >
-              Code
-            </ForwardButton>
-          </Flex>
-        </Box>
-      </Stack>
-    </Card>
-  );
-};
-const UrinalEtiquette = () => {
-  return (
-    <Card>
-      <Stack>
-        <Heading as="h3" size="lg" textAlign="center">
-          Urinal Etiquette
-        </Heading>
-        <HStack justify="center">
-          <Image
-            rounded="md"
-            src="/images/urinals.jpeg"
-            h="240px"
-            border="1px solid #666"
-            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
-            alt=""
-          />
-        </HStack>
-
-        <Box>
-          <Text>
-            This is fun game where given different scenarios of urinals taken
-            up. Your job is to determine which urinal to take yourself that
-            would be the most socially accepted!
-          </Text>
-          <Flex>
-            <ForwardButton
-              isExternal={true}
-              href="https://urinal-test.netlify.com/"
-            >
-              Hosted Contest Link
-            </ForwardButton>
-            <ForwardButton
-              isExternal={true}
-              href="https://github.com/LGeoff31/UrinalTest"
             >
               Code
             </ForwardButton>
