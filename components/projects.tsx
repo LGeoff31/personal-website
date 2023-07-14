@@ -30,6 +30,7 @@ const Projects = () => {
       </Flex>
       <Grid templateColumns="repeat(auto-fit, minmax(400px, 1fr))" gap={8}>
         <YoutubeClone />
+        <Moneyr />
         <Memories />
         <ParkwayKitchen />
         <RealEstate />
@@ -55,6 +56,47 @@ const Projects = () => {
         </Box>
       </Grid>
     </Box>
+  );
+};
+const Moneyr = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Finance Tracker
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/moneyr.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
+
+        <Box>
+          <Text>
+            This is a finance app that allows you to track your expenses,
+            visualize your spending habits, calculate your desired budget
+            distribution, all while giving you amazing financial advice to live
+            a financially free and stable lifestyle!
+          </Text>
+          <Flex>
+            <ForwardButton isExternal={true} href="https://moneyr.vercel.app/">
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/moneyr"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
   );
 };
 const YoutubeClone = () => {

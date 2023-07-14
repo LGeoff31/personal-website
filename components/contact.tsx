@@ -26,7 +26,7 @@ const Contact = () => {
   const linkColor = useColorModeValue("blue.500", "blue.200");
 
   const handleSubmit = (formData: FormData) => {
-    fetch("https://tansonlee-emailer.herokuapp.com/", {
+    fetch("https://geoffrey-emailer.herokuapp.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

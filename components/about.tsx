@@ -7,16 +7,16 @@ const aboutData = [
     name: "St. Robert CHS",
     date: "2019-2023",
     description:
-      "I'm currently in my senior year of high school in the IB program at St. Robert CHS. I have taken Grade 11 & 12 computer science in Python and Java. I am currently taking Higher Level math, physics and economics which are university level courses. My Standard Level courses include chemistry, english, french. I will be attending the University of Waterloo for Computer Engineering next year!",
+      "Current St. Robert CHS. IB Graduate. I have taken Grade 11 & 12 computer science in Python and Java. I am currently taking Higher Level math, physics and economics which are university level courses. My Standard Level courses include chemistry, english, french. I will be attending the University of Waterloo for Computer Engineering in the fall of 2023!",
     role: "International Baccalaureate: GPA: 96%",
     logo: <Image alt="" position="absolute" src={"/images/IB.jpeg"} h={12} />,
   },
   {
-    name: "Private Computer Science And Math Tutor",
+    name: "Computer Science And Mathematics Tutor",
     date: "2019 - 2023",
     description:
-      "I Tutor the contest material held by the University of Waterloo (Ex. Cayley, Fermet, Euclid, CCC). Additionally, I teach the fundementals of Python as well as Math courses from Gr. 9 to 12. Feel free to contact me @geoffrey31415@gmail.com",
-    role: "Tutor",
+      "I Tutor UWaterloo Contests (Ex. Cayley, Fermet, Euclid, CCC). Additionally, I teach the fundementals of Python as well as Math courses from Gr. 9 to 12. Feel free to contact me @geoffrey31415@gmail.com",
+    role: "Tutorax & Freelanced",
     logo: (
       <Image alt="" position="absolute" src={"/images/cs.jpeg"} h={9} ml={-3} />
     ),
