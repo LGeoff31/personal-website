@@ -30,6 +30,7 @@ const Projects = () => {
       </Flex>
       <Grid templateColumns="repeat(auto-fit, minmax(400px, 1fr))" gap={8}>
         <ReturnPal />
+        <Fitness />
         <YoutubeClone />
         <Moneyr />
         <Memories />
@@ -92,6 +93,50 @@ const Moneyr = () => {
             <ForwardButton
               isExternal={true}
               href="https://github.com/LGeoff31/moneyr"
+            >
+              Code
+            </ForwardButton>
+          </Flex>
+        </Box>
+      </Stack>
+    </Card>
+  );
+};
+const Fitness = () => {
+  return (
+    <Card>
+      <Stack w="100%">
+        <Heading as="h3" size="lg" textAlign="center">
+          Fitness Workouts API
+        </Heading>
+        <HStack justify="center">
+          <Image
+            rounded="md"
+            src="/images/fitness_app_homepage.png"
+            h="240px"
+            border="1px solid #666"
+            display={{ base: "none", sm: "block", md: "none", lg: "block" }}
+            alt=""
+          />
+        </HStack>
+
+        <Box>
+          <Text>
+            Want a website to provide hundreds of distinct workouts targeting
+            all muscle groups! With Rapid API, any workout can be searched and
+            auto-populated in milliseconds with hundreds of pages organized with
+            pagination.
+          </Text>
+          <Flex>
+            <ForwardButton
+              isExternal={true}
+              href="https://fitness-workouts.vercel.app/"
+            >
+              Hosted Project
+            </ForwardButton>
+            <ForwardButton
+              isExternal={true}
+              href="https://github.com/LGeoff31/workout_app"
             >
               Code
             </ForwardButton>
